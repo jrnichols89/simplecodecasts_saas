@@ -13,10 +13,10 @@
 
 ActiveRecord::Schema.define(version: 20150717202523) do
 
-  create_table "contacats", force: true do |t|
+  create_table "contacts", force: true do |t|
     t.string   "name"
     t.string   "email"
-    t.text     "commets"
+    t.text     "comments"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
