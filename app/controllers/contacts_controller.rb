@@ -8,7 +8,7 @@ def create
     if @contact.save
       name=params[:contact][:name]
       email=params[:contact][:name]
-      body=params[:contact][:name]
+      body=params[:contact][:comments]
       
       ContactMailer.contact_mailer(name,email,body).deliver
       
