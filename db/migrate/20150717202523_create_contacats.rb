@@ -1,6 +1,6 @@
 class CreateContacats < ActiveRecord::Migration
   def change
-    create_table :contacats do |t|
+    create_table :contacts do |t|
       t.string:name
       t.string:email
       t.text:commets
